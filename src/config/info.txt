@@ -1,0 +1,33 @@
+
+=========== Rutas principales ===========
+Ruta api: http://localhost:3000/api/
+Ruta swagger: http://localhost:3000/docsSenastion/
+
+
+=========== Rutas de la api ===========
+Algo:
+- http://localhost:3000/api/algo
+
+
+=========== Librerías usadas ===========
+class-validator
+class-transformer
+@nestjs/mapped-types
+@nestjs/config
+@nestjs/swagger 
+swagger-ui-express
+@nestjs/typeorm
+typeorm
+mysql2
+
+- No requieren instalarlas, solo darle "npm install" agregan el nombre de las que hayan instalado por cuenta propia
+
+=========== Comandos ===========
+iniciar: npm run start:dev 
+
+reinstalar: npm install
+instalar algo: npm i -lo_que_vaya_a_instalar
+
+módulos: nest g mo modules/nombre-archivo
+controladores: nest g co modules/nombre-archivo --no-spec
+servicios: nest g s modules/nombre-archivo --no-spec
